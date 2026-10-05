@@ -105,7 +105,7 @@ const encoderExe = path.join(binDir, platform === 'win32' ? 'encoder.exe' : 'enc
 
 if (platform === 'win32') {
     engineUrl = 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe';
-    encoderUrl = 'https://github.com/eugeneware/ffmpeg-static/releases/download/b6.1.1/ffmpeg-win32-x64.exe';
+    encoderUrl = 'https://github.com/imageio/imageio-binaries/raw/master/ffmpeg/ffmpeg-win64-v4.2.2.exe';
 } else if (platform === 'linux') {
     const isArm = arch === 'arm64' || arch === 'aarch64';
     engineUrl = isArm ? 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux_aarch64' : 'https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp';
